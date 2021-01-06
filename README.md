@@ -14,4 +14,4 @@ $ git clone https://github.com/ozaki-physics/design-training.git
 個人利用しかしませんが、著作権等に配慮したいのでコピペされて困るなどあれば教えてください
 
 ## 参考文献 References
-[URLをまとめたhtml](/references/references.html)を参照
+[URLをまとめたhtml](/references/refarences.md)を参照
