@@ -14,4 +14,12 @@ $ git clone https://github.com/ozaki-physics/design-training.git
 個人利用しかしませんが、著作権等に配慮したいのでコピペされて困るなどあれば教えてください
 
 ## 参考文献 References
-[URLをまとめたhtml](/references/refarences.md)を参照
+[URLをまとめたhtml](/references/references.md)を参照<br>
+参考文献の運用方法は、
+1. references-memo にフツーに書く
+2. get_html_title.py を実行して references.md を生成
+3. references.md の文字化け等を直す
+4. references.md を Markdown PDF で references.html を生成する
+自分の解釈を VSCode で読むときは references-memo.md
+記事を複数開いて読むときは references.html
+Github 上で読むときは references.md
