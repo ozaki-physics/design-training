@@ -91,8 +91,8 @@ def main2():
   # 必要に応じて変える変数
   search_text = "title"
   base_path = os.path.dirname(__file__)
-  file_name = base_path + "/refarences01-memo.md"
-  write_file_name = base_path + "/refarences.md"
+  file_name = base_path + "/references-memo.md"
+  write_file_name = base_path + "/references.md"
   progress_comment = "今{0}行目を実行中です"
 
   with open(write_file_name, mode="w", encoding="utf-8") as file_wr:
