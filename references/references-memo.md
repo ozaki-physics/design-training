@@ -22,12 +22,8 @@ https://saruwakakun.com/html-css/material
 ## ニューモフィズム(Neumorphism)
 https://redstapler.co/css-neumorphic-login-form-design/
 login-page.htmlで実際に書いてみた
-https://launchcart.jp/blog/webデザインの新しいトレンド「ニューモフィズム/
-メリット
-- 近代的なデザインと感じる
-- ベースとなる色が一色の為、統一性のあるシンプルでスタイリッシュなデザイン
-デメリット
-- 背景と同じ色調を使用する為、ボタンなどの場合アクセシビリティなどの観点から少し工夫の余地が必要(コントラストが弱く、ボタンをボタンとして認識しにくい)
+https://dribbble.com/search/Neumorphism
+__ワクワクするデザイン__ が見れる
 https://neumorphism.io/#e0e0e0
 ニューモフィズムの要素を簡単に生成できるサイト
 __これはめっちゃ使えそう__
@@ -44,8 +40,12 @@ https://fastcoding.jp/blog/all/info/designswidth-2020/
 https://gs.statcounter.com/
 めっちゃ公式団体が運営していそう
 ブラウザのシェア率や横幅のピクセル数を決定するときに参考になりそう
+この情報をもとに __サイズを決める__ のに使いそう
+https://dribbble.com/
+__イケてるデザイン__ を見ることができるSNS的なやつ
 ## デザイン性の高いサイト
 https://weedensenteret.no/nb
 ノルウェーのサイトで それなりに重い
 ## 一時的にメモしただけで使わなさそうなもの
 https://www.bauhausify.com/2019-07-10_UIデザインの原則デザインガイドライン/
+https://launchcart.jp/blog/webデザインの新しいトレンド「ニューモフィズム/

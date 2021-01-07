@@ -24,12 +24,8 @@ Google の公式ガイドラインの解説が少し書いてある<br>
 ## ニューモフィズム(Neumorphism)<br>
 <a href="https://redstapler.co/css-neumorphic-login-form-design/" target="_blank" alt="https://redstapler.co/css-neumorphic-login-form-design/">CSS Neumorphic Login Form Design Tutorial | Red Stapler</a><br>
 login-page.htmlで実際に書いてみた<br>
-<a href="https://launchcart.jp/blog/webデザインの新しいトレンド「ニューモフィズム/" target="_blank" alt="https://launchcart.jp/blog/webデザインの新しいトレンド「ニューモフィズム/">Webデザインの新しいトレンド「ニューモフィズム」とは | LaunchCart | 越境EC専用カート</a><br>
-メリット<br>
-- 近代的なデザインと感じる<br>
-- ベースとなる色が一色の為、統一性のあるシンプルでスタイリッシュなデザイン<br>
-デメリット<br>
-- 背景と同じ色調を使用する為、ボタンなどの場合アクセシビリティなどの観点から少し工夫の余地が必要(コントラストが弱く、ボタンをボタンとして認識しにくい)<br>
+<a href="https://dribbble.com/search/Neumorphism" target="_blank" alt="https://dribbble.com/search/Neumorphism">Browse thousands of Neumorphism images for design inspiration | Dribbble</a><br>
+__ワクワクするデザイン__ が見れる<br>
 <a href="https://neumorphism.io/#e0e0e0" target="_blank" alt="https://neumorphism.io/#e0e0e0">Neumorphism/Soft UI CSS shadow generator</a><br>
 ニューモフィズムの要素を簡単に生成できるサイト<br>
 __これはめっちゃ使えそう__<br>
@@ -46,8 +42,12 @@ __これはめっちゃ使えそう__<br>
 <a href="https://gs.statcounter.com/" target="_blank" alt="https://gs.statcounter.com/">StatCounter Global Stats - Browser, OS, Search Engine including Mobile Usage Share</a><br>
 めっちゃ公式団体が運営していそう<br>
 ブラウザのシェア率や横幅のピクセル数を決定するときに参考になりそう<br>
+この情報をもとに __サイズを決める__ のに使いそう<br>
+<a href="https://dribbble.com/" target="_blank" alt="https://dribbble.com/">Dribbble - Discover the World’s Top Designers & Creative Professionals</a><br>
+__イケてるデザイン__ を見ることができるSNS的なやつ<br>
 ## デザイン性の高いサイト<br>
 <a href="https://weedensenteret.no/nb" target="_blank" alt="https://weedensenteret.no/nb">Weedensenteret</a><br>
 ノルウェーのサイトで それなりに重い<br>
 ## 一時的にメモしただけで使わなさそうなもの<br>
 <a href="https://www.bauhausify.com/2019-07-10_UIデザインの原則デザインガイドライン/" target="_blank" alt="https://www.bauhausify.com/2019-07-10_UIデザインの原則デザインガイドライン/">UIデザインの原則デザインガイドライン | bauhausify</a><br>
+<a href="https://launchcart.jp/blog/webデザインの新しいトレンド「ニューモフィズム/" target="_blank" alt="https://launchcart.jp/blog/webデザインの新しいトレンド「ニューモフィズム/">Webデザインの新しいトレンド「ニューモフィズム」とは | LaunchCart | 越境EC専用カート</a><br>
