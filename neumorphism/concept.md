@@ -24,9 +24,6 @@
 - shape-シェイプ(４つの形状から選択)
 などを意識して作ると良い
 
-### 感想
-なんとなくだけどテキストボックスは窪んでいる感じ
-
 ### ニューモフィズムの練習台にしたいサイト
 https://dribbble.com/shots/9527558-Freebie-Neumorphic-UX-UI-Elements
 https://dribbble.com/shots/10058536-Skeumorphic-Smarthome-app
