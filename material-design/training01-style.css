@@ -1,0 +1,127 @@
+@charset "utf-8";
+
+/* このCSSの書き方は、セオリーじゃない気がする */
+
+/* リセットCSS的ななにか */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+  color: #333;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 15px;
+  line-height: 2;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+/* 大枠の横幅を設定 */
+.content {
+  width: 1080px;
+}
+
+/* 要素をタイル状に並べる */
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 90px;
+}
+
+.item-one {
+  width: 280px;
+  height: 130px;
+  margin: 10px;
+  background-color: lightpink;
+}
+
+.item-one p {
+  text-align: center;
+}
+
+/* フローリング操作ボタン botton01 は無くてもいいが区別のため */
+/* 円 */
+.button01 #fab {
+  display: block;
+  width: 56px;
+  height: 56px;
+  background-color: #03a9f4;
+  /* 中のiタグを水平中央に */
+  text-align: center;
+  /* 丸くする */
+  border-radius: 50%;
+  /* 四角から丸へ変化する */
+  transition: .3s;
+  /* 影をつける */
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.12),
+              0 2px 2px 0 rgba(0,0,0,.24);
+  /* item-one の中央に持ってくるため */
+  margin: 0 auto;
+}
+
+/* アイコン */
+.button01 #fab i {
+  color: #fff;
+  /* 垂直で中央へ 幅と同じ値 */
+  line-height: 56px;
+  font-size: 18px;
+}
+
+/* 浮き上がるように見せる影 */
+.button01 #fab:hover {
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),
+              0 1px 10px 0 rgba(0,0,0,.12),
+              0 2px 4px -1px rgba(0,0,0,.2);
+}
+
+.raised01:hover{
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);/*浮き上がるように*/
+}
+/* button02 浮き出しボタン botton02 は無くてもいいが区別のため */
+.button02 .raised {
+  /* テキストの下に置いたりするから inline-block なのかな */
+  display: inline-block;
+  background-color: #26a69b;
+  color: #fff;
+  font-size: 1em;
+  /* 行間 */
+  line-height: 1;
+  /* 下線や打ち消し線など */
+  text-decoration: none;
+  /* 字間 */
+  letter-spacing: 0.05em;
+  /* ボタンとしての余白を作って押すエリアが大きくなる */
+  padding: 0.2em 1em;
+  /* 角を丸める */
+  border-radius: 3px;
+  /* マウスの形状変化 */
+  cursor: pointer;
+  transition: .3s ease-out;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),
+              0 1px 5px 0 rgba(0,0,0,.12),
+              0 3px 1px -2px rgba(0,0,0,.2);
+}
+
+/* 浮き上がって見えるように */
+.button02 .raised:hover {
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,.14),
+              0 1px 7px 0 rgba(0,0,0,.12),
+              0 3px 1px -1px rgba(0,0,0,.2);
+}
+
+/* button03 フラットボタン botton03 は無くてもいいが区別のため */
+.button03 .flatto {
+  color: skyblue;
+  text-decoration: none;
+}

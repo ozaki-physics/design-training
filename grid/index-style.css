@@ -1,0 +1,68 @@
+body {
+  background-color: lightskyblue;
+}
+.grey {
+  background-color: lightgray;
+  padding: 2px;
+}
+
+.m20 {
+  margin: 20px 0;
+}
+
+.maru20 {
+  border-radius: 20px;
+}
+
+.container {
+  display: grid;
+  /* 列のトラックの幅を半角スペースで区切って指定 */
+  /* 2列しか作られない */
+  /* grid-template-columns: 100px 50px; */
+  /* repeat() は container を等分する */
+  /* grid-template-columns, grid-template-rows でしか使えない */
+  grid-template-columns: repeat(12,1fr);
+  /* 行のトラックの高さを半角スペースで区切って指定 */
+  grid-template-rows: repeat(9,1fr);
+  /* 溝の間隔 */
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+
+  /* グリッドの自動配置 */
+  grid-auto-flow: row dense; 
+
+  font-size: 16px;
+  background-color: lightyellow;
+  z-index: 1;
+}
+
+.wrapper {
+  background-color: lightgreen;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+.wrapper02 {
+  background-color: lightsalmon;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 100px;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+.box1 {
+  /* 最初が0でなく1からなことに注意 */
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.box2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
