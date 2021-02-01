@@ -1,0 +1,45 @@
+body {
+  background-color: #e0e0e0;
+}
+
+.neumorphism {
+  margin: 30px;
+}
+
+.botton {
+  display: inline-block;
+  margin: 10px;
+}
+
+.neumorphism img {
+  width: 300px;
+  height: 300px;
+}
+
+.base01 {
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow:  20px 20px 60px #bebebe,
+               -20px -20px 60px #ffffff;
+}
+
+.base02 {
+  border-radius: 50px;
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow:  20px 20px 60px #bebebe,
+               -20px -20px 60px #ffffff;
+}
+
+.base03 {
+  border-radius: 50px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  20px 20px 60px #bebebe,
+               -20px -20px 60px #ffffff;
+}
+
+.base04 {
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: inset 20px 20px 60px #bebebe,
+              inset -20px -20px 60px #ffffff;
+}
