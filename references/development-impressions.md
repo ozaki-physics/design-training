@@ -1,4 +1,15 @@
 ## 思ったこと
+### html の属性の順番
+```html
+<form action="" method="get">
+  <div class="" id="">
+    <input type="text" name="" class="" id="" value="" onclick="" size="" maxlength="">
+  </div>
+</form>
+```
+僕は class が先で id があとの方がしっくりくる気がした
+
+
 ### 疑問
 margin と padding ってどっちの方が使いやすいとか どちらかしか使わないようにするとかあるのか?
 
