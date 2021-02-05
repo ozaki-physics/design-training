@@ -1,3 +1,5 @@
+@charset "utf-8";
+@import url(../modern-css-reset.css);
 body {
   background-color: #e0e0e0;
 }
@@ -6,40 +8,139 @@ body {
   margin: 30px;
 }
 
+.neumorphism p{
+  margin: 25px 0 5px 0;
+}
+
 .botton {
   display: inline-block;
   margin: 10px;
+  border-radius: 30%;
+  width: 100px;
+  height: 100px;
 }
 
-.neumorphism img {
-  width: 300px;
-  height: 300px;
+/* 輪郭ハッキリ */
+.hard-flatto {
+  background: #e0e0e0;
+  box-shadow:  20px 20px 15px #bebebe,
+               -20px -20px 15px #ffffff;
 }
 
-.base01 {
-  border-radius: 50px;
+.hard-concave {
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow:  20px 20px 15px #bebebe,
+               -20px -20px 15px #ffffff;
+}
+
+.hard-convex {
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  20px 20px 15px #bebebe,
+               -20px -20px 15px #ffffff;
+}
+
+.hard-pit {
+  background: #e0e0e0;
+  box-shadow: inset 20px 20px 15px #bebebe,
+              inset -20px -20px 15px #ffffff;
+}
+
+/* 標準? */
+.normal-flatto {
+  background: #e0e0e0;
+  box-shadow:  20px 20px 40px #bebebe,
+               -20px -20px 40px #ffffff;
+}
+
+.normal-concave {
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow:  20px 20px 40px #bebebe,
+               -20px -20px 40px #ffffff;
+}
+
+.normal-convex {
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  20px 20px 40px #bebebe,
+               -20px -20px 40px #ffffff;
+}
+
+.normal-pit {
+  background: #e0e0e0;
+  box-shadow: inset 20px 20px 40px #bebebe,
+              inset -20px -20px 40px #ffffff;
+}
+
+/* 輪郭ぼかし気味 */
+.soft-flatto {
   background: #e0e0e0;
   box-shadow:  20px 20px 60px #bebebe,
                -20px -20px 60px #ffffff;
 }
 
-.base02 {
-  border-radius: 50px;
+.soft-concave {
   background: linear-gradient(145deg, #cacaca, #f0f0f0);
   box-shadow:  20px 20px 60px #bebebe,
                -20px -20px 60px #ffffff;
 }
 
-.base03 {
-  border-radius: 50px;
+.soft-convex {
   background: linear-gradient(145deg, #f0f0f0, #cacaca);
   box-shadow:  20px 20px 60px #bebebe,
                -20px -20px 60px #ffffff;
 }
 
-.base04 {
-  border-radius: 50px;
+.soft-pit {
   background: #e0e0e0;
   box-shadow: inset 20px 20px 60px #bebebe,
               inset -20px -20px 60px #ffffff;
+}
+
+/* 輪郭ぼかし */
+.very-soft-flatto {
+  background: #e0e0e0;
+  box-shadow:  20px 20px 100px #bebebe,
+               -20px -20px 100px #ffffff;
+}
+
+.very-soft-concave {
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow:  20px 20px 100px #bebebe,
+               -20px -20px 100px #ffffff;
+}
+
+.very-soft-convex {
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  20px 20px 100px #bebebe,
+               -20px -20px 100px #ffffff;
+}
+
+.very-soft-pit {
+  background: #e0e0e0;
+  box-shadow: inset 20px 20px 100px #bebebe,
+              inset -20px -20px 100px #ffffff;
+}
+
+/* 丸い形状と高さ */
+.low-concave {
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  20px 20px 40px #d5d5d5,
+               -20px -20px 40px #ebebeb;
+}
+
+.base-concave {
+  background: linear-gradient(145deg, #cacaca, #f0f0f0);
+  box-shadow:  20px 20px 40px #bebebe,
+               -20px -20px 40px #ffffff;
+}
+
+.hige-concave {
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  20px 20px 40px #9d9d9d,
+               -20px -20px 40px #ffffff;  
+}
+
+.very-hige-concave {
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  20px 20px 40px #5a5a5a,
+               -20px -20px 40px #ffffff;
 }
