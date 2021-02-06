@@ -19,6 +19,8 @@ Google の公式ガイドラインの解説が少し書いてある
 公式ガイドラインはページが多すぎてどこを読んだらいいのか分からない
 https://saruwakakun.com/html-css/material
 とても丁寧に書かれているから、このシリーズを一通り読みたい
+https://material.io/resources/icons/?style=baseline
+公式からマテリアルデザインのアイコンがダウンロードできる
 ## ニューモフィズム(Neumorphism)
 https://redstapler.co/css-neumorphic-login-form-design/
 login-page.htmlで実際に書いてみた

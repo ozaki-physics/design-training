@@ -1,0 +1,45 @@
+@charset "utf-8";
+body{
+  background-color: lightgray;
+}
+.body01{
+  background-color: lightgreen;
+  height: 500px;
+  margin-bottom: 5px;
+  position: relative;
+}
+.sita{
+  background-color: lightslategray;
+}
+.body02{
+  background-color: lightskyblue;
+  height: 200px;
+  width: 200px;
+  margin: 5px;
+  float: left;
+}
+.body03{
+  background-color: lightpink;
+  height: 200px;
+  width: 1450px;
+  margin: 5px;
+  float: right;  
+}
+.body04{
+  background-color: lightsalmon;
+  clear: both;
+  margin: 5px;
+  height: 200px;
+}
+.body01 .sannkouni{
+  background-color: lightsteelblue;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+@media screen and (max-width:600px){
+  /* 横600px以下の時のCSS */
+}
