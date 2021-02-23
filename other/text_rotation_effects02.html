@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Circle Text Rotation Effects on mousemove using CSS & Javascript | Splitting.js</title>
+  <link rel="stylesheet" href="./text_rotation_effects02_style.css">
+</head>
+<body>
+  <div class="circle" data-splitting>
+    Circle-Text-Animation-Effects-
+  </div>
+  <script src="./splitting.js"></script>
+  <script> Splitting(); </script>
+  <script>
+    let circle = document.querySelector(".circle");
+    window.onmousemove = function(e){
+      let x = e.clientX/-2;
+      circle.style.transform = "perspective(1000px) rotateY("+x+"deg) rotateX(15deg)";
+    }
+  </script>
+  <!-- <a href="https://youtu.be/yfwD-AKRCcA">Circle Text Animation using CSS & Splitting.js | CSS Text Effects</a> -->
+  <!-- <a href="https://github.com/shshaw/Splitting">Splitting の github</a> -->
+  <!-- <a href="https://youtu.be/QvERvfZl8qc">3D Circle Text Rotation Effects on mousemove using CSS & Javascript | Splitting.js</a> -->
+</body>
+</html>
