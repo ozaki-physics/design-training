@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background: rgb(180, 66, 56); */
+  /* background: darkred; */
+  background: #333;
+}
+
+.circle {
+  transform-style: preserve-3d;
+  animation: animate 8s linear infinite;
+}
+
+.circle .char {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: purple;
+  color: gold;
+  font-size: 4em;
+  padding: 5px 6px;
+  border-top: 7px solid lightgoldenrodyellow;
+  border-bottom: 7px solid lightgoldenrodyellow;
+  transform-style: preserve-3d;
+  transform-origin: center;
+  transform: rotateY(calc(var(--char-index) * 7.2deg))
+  translateZ(235px);
+  text-shadow: 
+    500px 150px 0 gold,
+    300px 150px 10px rgba(76, 196, 224, 0.5),
+    150px 600px 0 lightgoldenrodyellow,
+    600px 50px 0 rgba(178, 210, 54, 0.5),
+    400px 350px 0 rgba(76, 196, 224, 0.5),
+    200px 500px 0 rgba(255, 210, 112, 0.5),
+
+    500px -150px 0 darkgreen,
+    300px -150px 10px rgba(255, 210, 112, 0.5),
+    150px -600px 0 rgba(255, 210, 112, 0.5),
+    600px -50px 0 rgba(255, 210, 112, 0.5),
+    400px -350px 0 rgba(178, 210, 54, 0.5),
+    200px -500px 0 rgba(76, 196, 224, 0.5)
+  ;
+}
+
+@keyframes animate
+{
+  0%{
+    transform: perspective(1000px) rotateY(360deg) rotateX(0deg);
+  }
+  100%{
+    transform: perspective(1000px) rotateY(0deg) rotateX(180deg);
+  }
+}
