@@ -1,0 +1,51 @@
+<html>
+
+<body>
+  <div class="wrapper">
+    <input type="color" id="colorPicker">
+    <input type="button" value="保存" onclick="save()">
+    <input type="button" value="削除" onclick="ozaki_delete()">
+
+    <div class="box">
+      <p>hello world</p>
+    </div>
+  </div>
+  <a href="https://www.youtube.com/shorts/Yu3zHPx3be0" target="_blank">テーマカラー変更機能を実装する方法</a>
+
+</body>
+
+<style>
+  :root {
+    --primary: #0cf;
+  }
+
+  .box {
+    border: 4px solid var(--primary);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-block: 2rem;
+  }
+</style>
+<script>
+  const html = document.documentElement;
+  const colorPicker = document.getElementById("colorPicker");
+  ozaki_load()
+
+  function ozaki_load() {
+    let loadColor = sessionStorage.getItem("ozaki-themeColor");
+    html.style.setProperty("--primary", loadColor);
+    colorPicker.value = loadColor;
+  }
+
+  function save() {
+    sessionStorage.setItem("ozaki-themeColor", colorPicker.value);
+    ozaki_load()
+  }
+
+  function ozaki_delete() {
+    sessionStorage.removeItem("ozaki-themeColor")
+    ozaki_load()
+  }
+</script>
+
+</html>
