@@ -1,0 +1,84 @@
+<html>
+<style>
+  body {
+    transition: background-color 0.5s ease, color 0.5s ease;
+    background-color: #ECEFF1;
+    color: #303030;
+  }
+
+  body.dark-mode {
+    background-color: #303030;
+    color: #ECEFF1;
+  }
+
+  div {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+  }
+
+  section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+</style>
+<script>
+  document.addEventListener('DOMContentLoaded', (event) => {
+    document.getElementById('toggle-dark-mode').addEventListener('click', function () {
+      document.body.classList.toggle('dark-mode');
+    });
+  });
+</script>
+
+<body>
+  <!-- トグル -->
+  <button id="toggle-dark-mode">Toggle Dark Mode</button>
+  <p>ピンク系</p>
+  <section>
+    <div style="background: linear-gradient(120deg, #ddd6f3,#faaca8);"></div>
+    <div style="background: linear-gradient(120deg, #f7a0a4,#facca8);"></div>
+    <div style="background: linear-gradient(120deg, #f08e81,#af4562);"></div>
+    <div style="background: linear-gradient(120deg, #ffd5be,#f7c2f7);"></div>
+  </section>
+  <p>黄色系</p>
+  <section>
+    <div style="background: linear-gradient(120deg, #f1cb7a,#f09e85);"></div>
+    <div style="background: linear-gradient(120deg, #e65228,#f3c64d);"></div>
+    <div style="background: linear-gradient(120deg, #f0c446,#d66c9d);"></div>
+    <div style="background: linear-gradient(120deg, #f8d666,#e7e9f1);"></div>
+  </section>
+  <p>緑系</p>
+  <section>
+    <div style="background: linear-gradient(120deg, #d2c764,#6da77d);"></div>
+    <div style="background: linear-gradient(120deg, #def590,#96e8a1);"></div>
+    <div style="background: linear-gradient(120deg, #7abe73,#76ffa8);"></div>
+    <div style="background: linear-gradient(120deg, #75c985,#e3d04d);"></div>
+  </section>
+  <p>青系</p>
+  <section>
+    <div style="background: linear-gradient(120deg, #728fff,#6cbce7);"></div>
+    <div style="background: linear-gradient(120deg, #e2ecfa,#b5ceec);"></div>
+    <div style="background: linear-gradient(120deg, #93e4d6,#a0afe1);"></div>
+    <div style="background: linear-gradient(120deg, #3e70ef,#5c2cc7);"></div>
+  </section>
+  <p>グレー系</p>
+  <section>
+    <div style="background: linear-gradient(120deg, #b1b4b3,#dbdbd9);"></div>
+    <div style="background: linear-gradient(120deg, #96b0b0,#96b0b0);"></div>
+    <div style="background: linear-gradient(120deg, #d0ccc7,#3f4d59);"></div>
+    <div style="background: linear-gradient(120deg, #e9eef4,#ced7e6);"></div>
+  </section>
+  <p>紫系</p>
+  <section>
+    <div style="background: linear-gradient(120deg, #6326c6,#b23491);"></div>
+    <div style="background: linear-gradient(120deg, #f0e9fc,#caa6ee);"></div>
+    <div style="background: linear-gradient(120deg, #d4aacb,#6d3dda);"></div>
+    <div style="background: linear-gradient(120deg, #6a70ef,#c8a4f8);"></div>
+  </section>
+
+  <a href="https://www.instagram.com/p/C3VMqMKyAFb/?img_index=10" target="_blank" rel="noopener noreferrer">参考元</a>
+  <a href="https://developer.mozilla.org/ja/docs/Web/CSS/CSS_images/Using_CSS_gradients" target="_blank"
+    rel="noopener noreferrer">MDN</a>
+</body>
+
+</html>
